@@ -14,13 +14,22 @@ html{
 */
 
 body {
-    margin: 90px auto;  
-    width: 48%;
+    margin: 90px auto;
+    max-width: 850px;
+    width:50%;
+}
+
+.header{
+    height:100px;
 }
 
 .logo {
     float:left;
-    height:50px;
+}
+
+.logotext {
+    display:inline;
+    float:right;
 }
 
 .logo h1 {
@@ -31,10 +40,14 @@ body {
     letter-spacing: 2px;
 }
 
+.logo img{
+    height: 50px;
+    margin-right:24px;
+}
+
 nav {
     float:right;
-    margin:auto;
-    height:50px;
+    margin-top:32px;
 }
 
 nav ul {
@@ -52,41 +65,38 @@ nav ul li{
 
 a {
     text-decoration: none;
-    color: #888;
+    color: #999;
+}
+
+.aselected {
+    color:#000;
 }
 
 a:hover {
     color:#000;
 }
 
-/*
-h1 {
-    font-size: 14px;
-    font-family:'Open Sans','Helvetica', 'Arial', sans-serif;
-    margin:0;
+
+
+p{
+    font-family:'Lora','Helvetica', 'Arial', sans-serif;
+    font-size:14px;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
-h2 {
-    font-size:12px;
+.content{
+    margin: 80px auto;
+    max-width: 80%;
 }
 
-p {
-
-}
-*/
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+.left{
+    float:left;
+    width:40%;
 }
 
 
+.right{
+    float:right;
+    width:60%;
+}
