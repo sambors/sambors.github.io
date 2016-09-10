@@ -1,102 +1,43 @@
-/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-
-/*
-html{
-    height: 100%;
-    width: 100%;
-    background: url(/img/bg2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
-
 body {
-    margin: 90px auto;
-    max-width: 850px;
-    width:50%;
+    margin: 60px auto;
+    width: 70%;
 }
-
-.header{
-    height:100px;
-}
-
-.logo {
-    float:left;
-}
-
-.logotext {
-    display:inline;
-    float:right;
-}
-
-.logo h1 {
-    font-family: 'Open Sans','Helvetica', 'Arial', sans-serif;
-    font-size:24px;
-    text-transform: uppercase;
-    margin:0;
-    letter-spacing: 2px;
-}
-
-.logo img{
-    height: 50px;
-    margin-right:24px;
-}
-
-nav {
-    float:right;
-    margin-top:32px;
-}
-
-nav ul {
+nav ul, footer ul {
+    font-family:'Open Sans', 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
     list-style: none;
+    font-weight: bold;
 }
-
-nav ul li{
-    font-family:'Open Sans','Helvetica', 'Arial', sans-serif;
-    display:inline;
-    margin-right: 25px;
-    font-size:12px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
-
 a {
     text-decoration: none;
     color: #999;
 }
-
-.aselected {
-    color:#000;
-}
-
 a:hover {
-    color:#000;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Open Sans', 'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-
-
-p{
-    font-family:'Lora','Helvetica', 'Arial', sans-serif;
-    font-size:14px;
-    line-height: 20px;
-    margin-bottom: 20px;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-.content{
-    margin: 80px auto;
-    max-width: 80%;
-}
-
-.left{
-    float:left;
-    width:40%;
-}
-
-
-.right{
-    float:right;
-    width:60%;
+ul.posts li {
+    list-style: none;
 }
