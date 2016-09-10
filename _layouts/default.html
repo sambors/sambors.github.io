@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- link to Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lora|Open+Sans' rel='stylesheet' type='text/css'>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/cv">Resume</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            {{ content }}
+        </div><!-- /.container -->
+        <footer>
+            <ul>
+                <li><a href="mailto:sambors@gmail.com">email</a></li>
+                <li><a href="https://github.com/sambors">github.com/sambors</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
