@@ -1,3 +1,10 @@
-name: Szymon Sambor
+title: Szymon Sambor
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sambors.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+#Build Settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+exclude:
+  - Gemfile
+  - Gemfile.lock
