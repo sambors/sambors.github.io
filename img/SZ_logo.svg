@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>SZ_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SZ_logo" fill="#000000">
+            <g id="Group">
+                <path d="M0,0 C79.2239583,92.7890625 159.223958,152.789062 240,180 C320.776042,207.210937 374.109375,280.544271 400,400 C320.617188,321.757812 240.617188,268.424479 160,240 C79.3828125,211.575521 26.0494792,131.575521 0,0 Z" id="Path-6"></path>
+                <path d="M290,0 C333.954167,1.78250718 370.620833,28.4491739 400,80 C400,38.9342672 400,12.2676006 400,0 L290,0 Z" id="Path-5"></path>
+                <path d="M0,320 C43.7163075,320 80.3829741,346.666667 110,400 C110,358.934267 110,332.267601 110,320 L0,320 Z" id="Path-5-Copy" transform="translate(55.000000, 360.000000) rotate(180.000000) translate(-55.000000, -360.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
